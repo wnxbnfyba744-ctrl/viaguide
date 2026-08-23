@@ -380,16 +380,75 @@
                     </div>
                 </div>
 
-                <!-- Velog Prev / Next Post Navigator Cards -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12">
-                    <a href="/" class="p-4 border border-gray-200 rounded-2xl hover:border-brand-500 transition group flex flex-col justify-between">
-                        <span class="text-[11px] font-bold text-gray-400 group-hover:text-brand-600"><i class="fa-solid fa-arrow-left mr-1"></i> 메인으로 돌아가기</span>
-                        <span class="text-sm font-bold text-gray-900 mt-2 line-clamp-1">파워약국 의약학 블로그 메인목록</span>
-                    </a>
-                    <a href="/viagra-side-effects" class="p-4 border border-gray-200 rounded-2xl hover:border-brand-500 transition text-right group flex flex-col justify-between">
-                        <span class="text-[11px] font-bold text-gray-400 group-hover:text-brand-600">다음 포스트 <i class="fa-solid fa-arrow-right ml-1"></i></span>
-                        <span class="text-sm font-bold text-gray-900 mt-2 line-clamp-1">비아그라 부작용과 협심증 약 함께 복용 시 위험성</span>
-                    </a>
+                <!-- Recommended Posts Section (3 Cards) -->
+                <div class="mt-12 pt-8 border-t border-gray-200">
+                    <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+                        <i class="fa-solid fa-thumbs-up text-brand-500 text-base"></i> 관심 있을 만한 포스트
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+                        <!-- Recommended Post 1 -->
+                        <a href="/viagra-side-effects" class="bg-white rounded-2xl overflow-hidden border border-gray-100 velog-shadow hover:-translate-y-1 transition duration-200 flex flex-col justify-between group">
+                            <div>
+                                <div class="aspect-video w-full overflow-hidden bg-gray-100">
+                                    <img src="/img/viagra-side-effects-warning.png" onerror="this.src='https://placehold.co/600x340/12b886/ffffff?text=Side+Effects'" alt="비아그라 부작용 가이드" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                </div>
+                                <div class="p-4">
+                                    <h4 class="font-bold text-gray-900 group-hover:text-brand-500 transition text-sm line-clamp-2 mb-2">
+                                        비아그라 부작용 총정리: 두통·안면홍조부터 협심증 약 상호작용
+                                    </h4>
+                                    <p class="text-xs text-gray-500 line-clamp-2 leading-relaxed">
+                                        두통, 안면홍조 등 흔한 부작용부터 질산염계 심장약과의 치명적 병용 금기사항 해설.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="px-4 py-2.5 border-t border-gray-50 flex items-center justify-between text-[11px] text-gray-400 bg-gray-50/50">
+                                <span class="font-medium text-gray-700">by 메디티약국</span>
+                                <span><i class="fa-regular fa-heart mr-1"></i>38</span>
+                            </div>
+                        </a>
+
+                        <!-- Recommended Post 2 -->
+                        <a href="/viagra-vs-palpal" class="bg-white rounded-2xl overflow-hidden border border-gray-100 velog-shadow hover:-translate-y-1 transition duration-200 flex flex-col justify-between group">
+                            <div>
+                                <div class="aspect-video w-full overflow-hidden bg-gray-100">
+                                    <img src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=600&q=80" alt="비아그라 팔팔정 비교" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                </div>
+                                <div class="p-4">
+                                    <h4 class="font-bold text-gray-900 group-hover:text-brand-500 transition text-sm line-clamp-2 mb-2">
+                                        비아그라 vs 팔팔정: 동일 성분 차이점과 가격 비교 가이드
+                                    </h4>
+                                    <p class="text-xs text-gray-500 line-clamp-2 leading-relaxed">
+                                        오리지널 비아그라와 국내 복제약의 성분 동등성 및 약국 가격 비교 분석.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="px-4 py-2.5 border-t border-gray-50 flex items-center justify-between text-[11px] text-gray-400 bg-gray-50/50">
+                                <span class="font-medium text-gray-700">by 메디티약국</span>
+                                <span><i class="fa-regular fa-heart mr-1"></i>56</span>
+                            </div>
+                        </a>
+
+                        <!-- Recommended Post 3 -->
+                        <a href="/viagra-prescription-guide" class="bg-white rounded-2xl overflow-hidden border border-gray-100 velog-shadow hover:-translate-y-1 transition duration-200 flex flex-col justify-between group">
+                            <div>
+                                <div class="aspect-video w-full overflow-hidden bg-gray-100">
+                                    <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=600&q=80" alt="비아그라 처방전 받는 법" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                </div>
+                                <div class="p-4">
+                                    <h4 class="font-bold text-gray-900 group-hover:text-brand-500 transition text-sm line-clamp-2 mb-2">
+                                        비아그라 처방전 받는 법: 비뇨기과 진료 절차와 비용
+                                    </h4>
+                                    <p class="text-xs text-gray-500 line-clamp-2 leading-relaxed">
+                                        병원 방문부터 처방전 발급 과정, 진료 비용, 정품 약국 수령 팁 총정리.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="px-4 py-2.5 border-t border-gray-50 flex items-center justify-between text-[11px] text-gray-400 bg-gray-50/50">
+                                <span class="font-medium text-gray-700">by 메디티약국</span>
+                                <span><i class="fa-regular fa-heart mr-1"></i>29</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
             </article>
