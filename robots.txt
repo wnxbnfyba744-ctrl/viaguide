@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://viaguide.wnxbnfyba744.workers.dev/sitemap.xml
